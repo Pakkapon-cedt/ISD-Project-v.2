@@ -89,7 +89,7 @@
      .contain{
       width: 300px;
       padding: 20px;
-      border: 1px solid #ff0000;
+      border: 5px solid #ff0000;
       border-radius: 5px;
       
      }
@@ -108,7 +108,11 @@
       cursor: pointer;
      }
      body{
-      background-color: #7c7c7c;
+      background-color: rgb(43, 131, 109);
+     }
+     footer{
+      position: absolute;
+      right: 42%;
      }
   </style>
 </head>
@@ -131,24 +135,21 @@
       </div>
     </div>
   </header>
-  <footer>
+  
     <div class="slideshow-container">
       <div class="mySlides ">
         <div class="numbertext"><h1>1/3</h1></div>
-        <img src="https://images.unsplash.com/photo-1680430492277-5c53d20c23b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"style="width:100%" height=500px >
-        <div class="text">Elephant</div>
+        <img src="https://images.unsplash.com/photo-1680430492277-5c53d20c23b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"style="width:100%" height=500px > 
       </div>
 
       <div class="mySlides ">
         <div class="numbertext"><h1>2/3</h1></div>
         <img src="https://i.natgeofe.com/k/63b1a8a7-0081-493e-8b53-81d01261ab5d/red-panda-full-body_4x3.jpg"style="width:100%" height=500px>
-        <div class="text">Dog</div>
       </div>
 
       <div class="mySlides">
         <div class="numbertext"><h1>3/3</h1></div>
         <img src="https://media.wired.com/photos/593261cab8eb31692072f129/master/pass/85120553.jpg" style="width:100%"height=500px>
-        <div class="text">Red panda</div>
       </div>
 
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -161,9 +162,10 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+    <footer>
     <div class="contain">
       <h2>ตัวไหนคือหมา</h2>
-      <input type="text" id="userInput" placeholder="พิมพ">
+      <input type="text" id="userInput" placeholder="ตอบเป็นตัวเลขของภาพ">
       <button onclick="submitText()">ส่งข้อความ</button>
 
     </div>
@@ -204,7 +206,7 @@
   }
   function submitText(){
     var userInput= document.getElementById("userInput").value;
-    alert("คุณพิมพ์"+userInput);
+    alert("ผิด มันไม่ใช่หมาซักตัว");
   }
   </script>
   
