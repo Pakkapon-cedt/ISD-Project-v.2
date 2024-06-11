@@ -1,0 +1,22 @@
+body{
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/f0/9b/c5/view-from-bears-hump.jpg?w=700&h=-1&s=1');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .image{
+    position: absolute;
+    top: 0;
+    left: 1cm;
+
+  }
+  .text-bg-dark{
+    background-color: aqua;
+  }
+  #typing{
+    margin-top: 400px;
+    font-size: 45px;
+    text-align: center;
+  }
+  @media screen and (max-width: 600px){
+    font-size: 14px;
+  }
