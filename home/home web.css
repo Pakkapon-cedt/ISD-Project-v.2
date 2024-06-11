@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/f0/9b/c5/view-from-bears-hump.jpg?w=700&h=-1&s=1');
+    background-image: url('bg\ img\ ISD.jpg');
     background-size: cover;
     background-color: rgba(255, 255, 255, 1);
   }
@@ -17,6 +17,4 @@ body{
     font-size: 45px;
     text-align: center;
   }
-  @media screen and (max-width: 600px){
-    font-size: 14px;
-  }
+ 
