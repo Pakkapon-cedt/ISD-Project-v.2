@@ -1,29 +1,31 @@
 body{
-    background-image: url('bg\ img\ ISD.jpg');
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 1);
-  }
-  .image{
-    position: absolute;
-    top: 0;
-    left: 1cm;
+  background-image: url('bg\ img\ ISD.jpg');
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.image{
+  position: absolute;
+  top: 0;
+  left: 1cm;
 
-  }
-  .text-bg-dark{
-    background-color: aqua;
-  }
-  #typing{
-    margin-top: 400px;
-    font-size: 45px;
-    text-align: center;
-  }
-  @media (max-width: 480px) {
+}
+.text-bg-dark{
+  background-color: aqua;
+}
+#typing{
+  margin-top: 400px;
+  font-size: 45px;
+  text-align: center;
+}
+@media (max-width: 480px) {
     #typing {
-      font-size: 12px;
+      font-size: 15px;
       margin-top: 200px;
         color: #ffffff;
     }
-    }
+  }
     @media (max-width: 768px) {
     #typing {
       font-size: 15px;
@@ -31,3 +33,13 @@ body{
          color: #ffffff;
     }
   }
+header {
+  padding: 2rem 0;
+}
+
+.navbar-brand img {
+  border-radius: 70%;
+}
+        .nav-item .nav-link {
+  margin-left: 10px; 
+}
