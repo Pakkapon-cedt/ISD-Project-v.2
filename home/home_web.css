@@ -17,4 +17,17 @@ body{
     font-size: 45px;
     text-align: center;
   }
- 
+  @media (max-width: 480px) {
+    #typing {
+      font-size: 12px;
+      margin-top: 200px;
+        color: #ffffff;
+    }
+    }
+    @media (max-width: 768px) {
+    #typing {
+      font-size: 15px;
+      margin-top: 200px;
+         color: #ffffff;
+    }
+  }
